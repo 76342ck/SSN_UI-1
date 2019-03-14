@@ -1,0 +1,16 @@
+#nav_fontSize {
+  font-size:1.5em;
+}
+
+@media (max-width:767px) {
+  #name.form-group.form-inline input {
+    width:100%;
+  }
+}
+
+@media (min-width:768px) {
+  #name.form-group.form-inline input {
+    width:30%;
+  }
+}
+
