@@ -7,6 +7,7 @@
     <title>ssnUI</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean1.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Team-Grid.css">
@@ -32,7 +33,7 @@
     </div>
     
 
-<div class="container">
+<div style="margin-bottom:20px;" class="container">
     
     <h1>SSN Application Form</h1>
     
@@ -45,9 +46,9 @@
         </div>
         
          <div class="form-group form-inline">
-            <label>TUID</label>
+            <label>TUID:</label>
             <input style="margin-right:20px;" type="text" class="form-control" />    
-            <label style="margin-right:10px;" >Visa Status</label>
+            <label style="margin-right:10px;" >Visa Status:</label>
             <input value="f1" type="checkbox" />
             <label style="margin-right:10px;">F1</label>
             <input value="j1" type="checkbox" />
@@ -55,19 +56,19 @@
         </div>
         
         <div class="form-group">
-            <label for="exampleFormControlTextarea1">Nature of student’s job (e.g., wait staff, library aide, research assistant, etc.)</label>
+            <label for="exampleFormControlTextarea1">Nature of student’s job (e.g., wait staff, library aide, research assistant, etc.):</label>
             <textarea class="form-control" rows="1"></textarea>
         </div>
         
         <div class="form-group form-inline">
-            <label>Start Date</label>
+            <label>Start Date:</label>
             <input style="margin-right:10px;" type="text" class="form-control" />
-            <label>Number of hours/week</label>
+            <label>Number of hours/week:</label>
             <input type="hours" class="form-control" />
         </div>
         
         <div id="ein" class="form-group">
-            <span style="display:block; text-align:center;"><label style="margin-right:10px;" >Employer Identification Number (EIN):</label></span>
+            <span style="display:block; text-align:center;"><label style="text-decoration: underline;" >Employer Identification Number (EIN):</label></span>
             <span class="stack">
                 <input value="23-1365971" type="checkbox" />
                 <label style="margin-right:10px;">Temple University (23-1365971)</label>
@@ -85,16 +86,55 @@
             </span>
 
         </div>
-    
-    
-    
-    
-    
-    
-    </form>
+        <div class="form-group form-inline">
+            <label>Employer telephone number:</label>
+            <input style="margin-right:10px;" type="text" class="form-control" />
+            <label>Employer email:</label>
+            <input type="hours" class="form-control" />
+        </div>
+           
+        <div class="form-group form-inline">
+            <label>Employee’s immediate supervisor:</label>
+            <input style="margin-right:10px;" type="text" class="form-control" />
+            <label>Supervisor’s title:</label>
+            <input type="hours" class="form-control" />
+        </div>
         
+        <div id="ein" class="form-group">
+            <span style="display:block; text-align:center;"><label style="text-decoration: underline;" >D.S.O’s printed name</label></span>
+            <span class="stack">
+                <input type="checkbox" />
+                <label style="font-size: 10pt;">Martyn J. Miller, Director</label>
+            </span>
+            <span class="stack">
+                <input type="checkbox" />
+                <label style="font-size: 10pt;" >Joan McGinley, Assistant Director</label>
+            </span>
+            <span class="stack">
+                <input type="checkbox" />
+                <label style="font-size: 10pt;">Takiko Goldschneider, International Student Advisor</label>
+            </span>
+            <span class="stack">
+                <input type="checkbox" />
+                <label style="font-size: 10pt;">Jamie Graver, Immigration Services Assistant</label>
+            </span>
+
+        </div>
+        <button class="btn btn-default" type="button">Submit Application</button>
+
+        
+    </form>
+    
+   
 </div>    
+
   
+    <div class="footer-dark">
+        <footer>
+    <h6 style="padding:7px;"><strong><span style="text-decoration: underline;">Working WhileAwaiting a SSN</span></strong> </h6></footer>
+        <p style="padding: 7px;">An individual in Nonimmigrant Student (F-1 orJ-1) status may work while the Social Security Number application is beingprocessed. For more information, employers may wish to refer to the SocialSecurity Administration’s fact sheet titled, “Employer Responsibilities
+    WhenHiring Foreign Workers”. This fact sheet contains information on how to reportwages for an employee who has not yet received a SSN and is available onlineat: <a href="https://www.ssa.gov/employer/hiring.htm">https://www.ssa.gov/employer/hiring.html</a></p>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
