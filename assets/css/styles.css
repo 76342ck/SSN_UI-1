@@ -14,3 +14,19 @@
   }
 }
 
+@media (max-width:1200px) {
+  .stack {
+    display:block;
+  }
+}
+
+@media (min-width:993px) {
+  .stack {
+    margin-right:30px;
+  }
+}
+
+.form-group {
+  margin-bottom:30px;
+}
+
