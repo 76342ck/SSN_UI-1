@@ -52,9 +52,8 @@
             </asp:ContentPlaceHolder>
         </div>
     </form>
-    <footer class="navbar-fixed-bottom">
+    <footer class="footer container-fluid ">
         <div class="col-sm-3 center">
-            <br />
             <h4>Temple University</h4>
             <h6>International Student and Scholar Services</h6>
             <p>
@@ -66,7 +65,6 @@
         </div>
         <div class="col-sm-4"></div>
         <div class="col-sm-5">
-            <br />
             <ul class="nav navbar-left">
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Maps and Directions</a></li>
